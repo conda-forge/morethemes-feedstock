@@ -40,7 +40,6 @@ about:
   license: MIT
   license_file:
     - LICENSE
-    - morethemes/fonts/LICENSES/
 
 extra:
   recipe-maintainers:
