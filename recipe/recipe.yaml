@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - matplotlib-base >=3.6.0, <4.0
+    - pyfonts >=1.0.0
 
 tests:
   - python:
