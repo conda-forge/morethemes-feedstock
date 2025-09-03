@@ -1,6 +1,6 @@
 context:
   name: morethemes
-  version: "0.4.0"
+  version: "0.5.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 523687cfb34f9c20ab422dd65f2bfb90202c6eda192b8f9df097f740c4f48484
+  sha256: 73245e6b5fd4d7fe65ae46e8f50168e216c204dc41cf89cb02701c97e66b4f2d
 
 build:
   noarch: python
