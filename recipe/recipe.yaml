@@ -1,6 +1,6 @@
 context:
   name: morethemes
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: fa6bb2454b0c73b1336ddbf2a68650cbdafe271271b98d65467be6017cd5c8b3
+  sha256: bbf2973334e2c936f3b6e3420df2116071346520f62efdb366e8950dae204411
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - matplotlib-base >=3.6.0, <4.0
-    - pyfonts >=1.0.0
+    - pyfonts >=1.4.1
 
 tests:
   - python:
@@ -33,8 +33,8 @@ tests:
       python_version: ${{ python_min }}.*
 
 about:
-  homepage: https://josephbarbierdarnal.github.io/morethemes/
-  repository: https://github.com/JosephBARBIERDARNAL/morethemes
+  homepage: https://y-sunflower.github.io/morethemes/
+  repository: https://github.com/y-sunflower/morethemes
   summary: 'More themes for matplotlib'
   description: |
     morethemes provides themes for matplotlib. More themes, better plots, one line of code.
